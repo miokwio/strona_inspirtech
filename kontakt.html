@@ -3,105 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Obróbka CNC - Profesjonalne Usługi</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        nav {
-            text-align: center;
-            padding: 10px;
-            background: #555;
-        }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: white;
-            margin-top: 20px;
-        }
-        .contact-form {
-            margin-top: 20px;
-        }
-        .contact-form label, .contact-form input, .contact-form textarea {
-            display: block;
-            width: 100%;
-            margin-bottom: 10px;
-        }
-        .contact-form input, .contact-form textarea {
-            padding: 8px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .contact-form button {
-            background-color: #333;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-    </style>
+    <title>Kontakt - Obróbka CNC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Profesjonalna Obróbka CNC</h1>
+        <h1>Kontakt</h1>
     </header>
     <nav>
-        <a href="#uslugi.html">Usługi</a>
+        <a href="index.html">Strona Główna</a>
         <a href="o-nas.html">O nas</a>
         <a href="kontakt.html">Kontakt</a>
     </nav>
     <div class="container">
-        <section id="uslugi.html">
-            <h2>Nasze Usługi</h2>
-            <p>Oferujemy precyzyjną obróbkę CNC, frezowanie, toczenie oraz inne usługi dostosowane do Twoich potrzeb.</p>
-        </section>
-        <section id="o-nas.html">
-            <h2>O Nas</h2>
-            <p>Jesteśmy firmą z wieloletnim doświadczeniem w obróbce metali. Gwarantujemy najwyższą jakość wykonania.</p>
-        </section>
-        <section id="kontakt.html">
-            <h2>Kontakt</h2>
-            <p>Skontaktuj się z nami pod adresem: kontakt@cncfirmapl.com lub telefonicznie: 123-456-789.</p>
-            <div class="contact-form">
-                <h3>Formularz kontaktowy</h3>
-                <form>
-                    <label for="name">Imię i nazwisko:</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="message">Wiadomość:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                    
-                    <button type="submit">Wyślij</button>
-                </form>
-            </div>
-        </section>
+        <h2>Skontaktuj się z nami</h2>
+        <form class="contact-form">
+            <label for="name">Imię i nazwisko:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
     </div>
     <footer>
         <p>&copy; 2024 Obróbka CNC - Wszelkie prawa zastrzeżone.</p>
