@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Strona nie istnieje</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .error-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .error-container h1 {
+            font-size: 80px;
+            color: red;
+        }
+        .error-container p {
+            font-size: 22px;
+            margin: 20px 0;
+        }
+        .error-container a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .error-container a:hover {
+            background: #555;
+        }
+        .image-box {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-caption {
+            font-size: 16px;
+            color: #555;
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="container error-container">
+        <h1>404</h1>
+        <p>Przepraszamy, ale strona, której szukasz, nie istnieje.</p>
+        
+        <div class="image-box">
+            <img src="images/error-404.jpg" alt="Błąd 404 - Strona nie istnieje" class="responsive-img">
+            <p class="image-caption">Ups! Strona nie została znaleziona.</p>
+        </div>
+
+        <a href="index.html">Powrót na stronę główną</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Obróbka CNC - Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
 
